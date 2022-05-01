@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-const initialStateBreeds = [
-	{ id: 1, name: "dog1" },
-	{ id: 2, name: "dog2" },
-];
-
 const Select = ({ getDog }) => {
 	const [breeds, setBreeds] = useState([]);
 
